@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="91" viewBox="0 0 298 91">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.2" x2="0.754" y2="0.87" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f99f00"/>
+      <stop offset="1" stop-color="#db3069"/>
+    </linearGradient>
+    <filter id="Oval-2" x="107" y="0" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval-3" x="107" y="0" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval-4" x="214" y="0" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Oval-5" x="214" y="0" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="smallNavBar" transform="translate(15 7)">
+    <g id="like_icon_def">
+      <g id="like_icon_def-2" data-name="like_icon_def">
+        <g transform="matrix(1, 0, 0, 1, -15, -7)" filter="url(#Oval)">
+          <circle id="Oval-6" data-name="Oval" cx="27" cy="27" r="27" transform="translate(15 7)" fill="#fff"/>
+        </g>
+        <path id="Path" d="M22.984,23.577a.745.745,0,0,1-.694.472H19.357a15.282,15.282,0,0,1-4.964,3.819.8.8,0,0,1-.252.067c-.544.043-.943.065-1.216.065a10.168,10.168,0,0,1-2.578-.385l-.606.306A.744.744,0,0,1,9.4,28h-.87c-3.013,0-3.646-1.462-3.646-2.688,0-.037,0-.075,0-.119a2.454,2.454,0,0,1-2.4-2.6c0-.106.006-.235.019-.392a2.785,2.785,0,0,1-1.259-.837A2.441,2.441,0,0,1,.72,19.75a2.949,2.949,0,0,1,.415-1.439A4.356,4.356,0,0,1,0,15.378a3.667,3.667,0,0,1,2.172-3.251,11.309,11.309,0,0,1,5.481-1.161h.176c-.2-1.169.658-1.075.092-2.181l-.35-.6a8.488,8.488,0,0,1-1.218-3.6c0-2.4,1.277-3.909,3.8-4.5l.238-.057a.755.755,0,0,1,.57.089.742.742,0,0,1,.333.468L12.31,5.067l4.1,4.346c.288.333-.52-.357.275.7l.627.824a8.756,8.756,0,0,0,1.358,1.6,2.038,2.038,0,0,0,1.147.245h2.374a.741.741,0,0,1,.679.44A12.631,12.631,0,0,1,24,18.4,14.184,14.184,0,0,1,22.984,23.577Z" transform="translate(15 12)" fill="none" stroke="#979797" stroke-miterlimit="10" stroke-width="2"/>
+        <text id="LIKE" transform="translate(27 80)" fill="#999" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-13.671" y="0">LIKE</tspan></text>
+      </g>
+    </g>
+    <g id="like_icon_hov">
+      <g id="like_icon_hov-2" data-name="like_icon_hov">
+        <circle id="Oval-7" data-name="Oval" cx="27" cy="27" r="27" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+        <path id="Path-2" data-name="Path" d="M22.984,23.577a.745.745,0,0,1-.694.472H19.357a15.282,15.282,0,0,1-4.964,3.819.8.8,0,0,1-.252.067c-.544.043-.943.065-1.216.065a10.168,10.168,0,0,1-2.578-.385l-.606.306A.744.744,0,0,1,9.4,28h-.87c-3.013,0-3.646-1.462-3.646-2.688,0-.037,0-.075,0-.119a2.454,2.454,0,0,1-2.4-2.6c0-.106.006-.235.019-.392a2.785,2.785,0,0,1-1.259-.837A2.441,2.441,0,0,1,.72,19.75a2.949,2.949,0,0,1,.415-1.439A4.356,4.356,0,0,1,0,15.378a3.667,3.667,0,0,1,2.172-3.251,11.309,11.309,0,0,1,5.481-1.161h.176c-.2-1.169.658-1.075.092-2.181l-.35-.6a8.488,8.488,0,0,1-1.218-3.6c0-2.4,1.277-3.909,3.8-4.5l.238-.057a.755.755,0,0,1,.57.089.742.742,0,0,1,.333.468L12.31,5.067l4.1,4.346c.288.333-.52-.357.275.7l.627.824a8.756,8.756,0,0,0,1.358,1.6,2.038,2.038,0,0,0,1.147.245h2.374a.741.741,0,0,1,.679.44A12.631,12.631,0,0,1,24,18.4,14.184,14.184,0,0,1,22.984,23.577Z" transform="translate(15 12)" fill="#fff"/>
+        <text id="LIKE-2" data-name="LIKE" transform="translate(27 80)" fill="#999" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-13.671" y="0">LIKE</tspan></text>
+      </g>
+    </g>
+    <g id="Favorites_icon_def" transform="translate(100)">
+      <g id="Favorites_icon_def-2" data-name="Favorites_icon_def">
+        <g transform="matrix(1, 0, 0, 1, -115, -7)" filter="url(#Oval-2)">
+          <circle id="Oval-8" data-name="Oval" cx="27" cy="27" r="27" transform="translate(122 7)" fill="#fff"/>
+        </g>
+        <path id="Star_Copy_2" data-name="Star Copy 2" d="M18.8,26.489a3.787,3.787,0,0,0-3.525,0L12.034,28.2a2.793,2.793,0,0,1-4.052-2.944l.62-3.614a3.787,3.787,0,0,0-1.089-3.352l-2.626-2.56a2.793,2.793,0,0,1,1.548-4.763l3.63-.527a3.787,3.787,0,0,0,2.852-2.072l1.623-3.289a2.793,2.793,0,0,1,5.009,0L21.17,8.363a3.787,3.787,0,0,0,2.852,2.072l3.63.527A2.793,2.793,0,0,1,29.2,15.725l-2.626,2.56a3.787,3.787,0,0,0-1.089,3.352l.62,3.614A2.793,2.793,0,0,1,22.052,28.2Z" transform="translate(16.957 10.483)" fill="none" stroke="#979797" stroke-miterlimit="10" stroke-width="2"/>
+        <text id="FAVORITE" transform="translate(34 80)" fill="#999" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-31.882" y="0">FAVORITE</tspan></text>
+      </g>
+    </g>
+    <g id="Favorites_icon_hov" transform="translate(100)">
+      <g id="Favorites_icon_hov-2" data-name="Favorites_icon_hov">
+        <g transform="matrix(1, 0, 0, 1, -115, -7)" filter="url(#Oval-3)">
+          <circle id="Oval-9" data-name="Oval" cx="27" cy="27" r="27" transform="translate(122 7)" fill="#fecb2f"/>
+        </g>
+        <path id="Star_Copy_2-2" data-name="Star Copy 2" d="M18.8,26.489a3.787,3.787,0,0,0-3.525,0L12.034,28.2a2.793,2.793,0,0,1-4.052-2.944l.62-3.614a3.787,3.787,0,0,0-1.089-3.352l-2.626-2.56a2.793,2.793,0,0,1,1.548-4.763l3.63-.527a3.787,3.787,0,0,0,2.852-2.072l1.623-3.289a2.793,2.793,0,0,1,5.009,0L21.17,8.363a3.787,3.787,0,0,0,2.852,2.072l3.63.527A2.793,2.793,0,0,1,29.2,15.725l-2.626,2.56a3.787,3.787,0,0,0-1.089,3.352l.62,3.614A2.793,2.793,0,0,1,22.052,28.2Z" transform="translate(16.957 10.483)" fill="#fff"/>
+        <text id="FAVORITE-2" data-name="FAVORITE" transform="translate(34 80)" fill="#999" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-31.882" y="0">FAVORITE</tspan></text>
+      </g>
+    </g>
+    <g id="comment_icon_def" transform="translate(204)">
+      <g id="comment_icon_def-2" data-name="comment_icon_def">
+        <g transform="matrix(1, 0, 0, 1, -219, -7)" filter="url(#Oval-4)">
+          <circle id="Oval-10" data-name="Oval" cx="27" cy="27" r="27" transform="translate(229 7)" fill="#fff"/>
+        </g>
+        <path id="Combined_Shape" data-name="Combined Shape" d="M5,24.984v-2.7A12.356,12.356,0,0,1,12.5,0a12.379,12.379,0,1,1,0,24.757,12.769,12.769,0,0,1-1.355-.072L7.655,26.568A1.8,1.8,0,0,1,5,24.984Z" transform="translate(24 14)" fill="none" stroke="#979797" stroke-miterlimit="10" stroke-width="2"/>
+        <circle id="Oval_5" data-name="Oval 5" cx="1.5" cy="1.5" r="1.5" transform="translate(29 25)" fill="#999"/>
+        <circle id="Oval_5_Copy" data-name="Oval 5 Copy" cx="1.5" cy="1.5" r="1.5" transform="translate(35 25)" fill="#999"/>
+        <circle id="Oval_5_Copy_2" data-name="Oval 5 Copy 2" cx="1.5" cy="1.5" r="1.5" transform="translate(41 25)" fill="#999"/>
+        <text id="COMMNET" transform="translate(37 80)" fill="#999" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-36.899" y="0">COMMNET</tspan></text>
+      </g>
+    </g>
+    <g id="comment_icon_hov" transform="translate(204)">
+      <g id="comment_icon_hov-2" data-name="comment_icon_hov">
+        <g transform="matrix(1, 0, 0, 1, -219, -7)" filter="url(#Oval-5)">
+          <circle id="Oval-11" data-name="Oval" cx="27" cy="27" r="27" transform="translate(229 7)" fill="#222"/>
+        </g>
+        <path id="Combined_Shape-2" data-name="Combined Shape" d="M5,24.984v-2.7A12.356,12.356,0,0,1,12.5,0a12.379,12.379,0,1,1,0,24.757,12.769,12.769,0,0,1-1.355-.072L7.655,26.568A1.8,1.8,0,0,1,5,24.984Z" transform="translate(24 14)" fill="#fff"/>
+        <circle id="Oval_5-2" data-name="Oval 5" cx="1.5" cy="1.5" r="1.5" transform="translate(29 25)" fill="#222"/>
+        <circle id="Oval_5_Copy-2" data-name="Oval 5 Copy" cx="1.5" cy="1.5" r="1.5" transform="translate(35 25)" fill="#222"/>
+        <circle id="Oval_5_Copy_2-2" data-name="Oval 5 Copy 2" cx="1.5" cy="1.5" r="1.5" transform="translate(41 25)" fill="#222"/>
+        <text id="COMMNET-2" data-name="COMMNET" transform="translate(37 80)" fill="#999" font-size="15" font-family="SegoeUI, Segoe UI"><tspan x="-36.899" y="0">COMMNET</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

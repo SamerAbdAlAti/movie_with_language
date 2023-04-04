@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.2" x2="0.754" y2="0.87" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f99f00"/>
+      <stop offset="1" stop-color="#db3069"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(0)">
+    <rect id="bg" width="375" height="812" fill="url(#linear-gradient)"/>
+    <g id="decoration" transform="translate(0 149)">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M0,40.734a116.523,116.523,0,0,1,188.305,15.64A116.521,116.521,0,0,1,375,40.582V532H0V40.734Z" transform="translate(0 131)" opacity="0.388" fill="url(#linear-gradient)"/>
+      <circle id="Oval" cx="10" cy="10" r="10" transform="translate(178 48)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4" opacity="0.45"/>
+      <circle id="Oval_Copy_2" data-name="Oval Copy 2" cx="7" cy="7" r="7" transform="translate(181 91)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4" opacity="0.1"/>
+      <circle id="Oval_Copy" data-name="Oval Copy" cx="13" cy="13" r="13" transform="translate(223)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4" opacity="0.2"/>
+    </g>
+  </g>
+</svg>
