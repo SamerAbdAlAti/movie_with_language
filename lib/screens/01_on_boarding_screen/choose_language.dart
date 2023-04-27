@@ -35,6 +35,7 @@ class ChooseLanguage extends StatelessWidget {
               top: 50.h,
             ),
             child: DropdownButtonFormField<String>(
+              alignment: AlignmentDirectional.bottomCenter,
               decoration: InputDecoration(
                 fillColor: AppColor.backgroundColor.withOpacity(0.8),
                 border: InputBorder.none,
@@ -58,14 +59,14 @@ class ChooseLanguage extends StatelessWidget {
                   case "English":
                     {
                       provider.changeLanguage(
-                        languageCode: "en" ?? provider.language,
+                        languageCode: "en" ,
                       );
                       break;
                     }
                     case "العربية":
                     {
                       provider.changeLanguage(
-                        languageCode: "ar" ?? provider.language,
+                        languageCode: "ar",
                       );
                       break;
                     }

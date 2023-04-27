@@ -5,6 +5,14 @@
   "Get_the_firstMovie": "获取一首 \n电影&电视信息",
   "Know_the_movie": "快速了解\n电影是否值得一看",
   "Real_time_updates": "阿拉伯语",
-  "choose_the_language": "选择语言"
+  "choose_the_language": "选择语言",
+  "MOVIES": "电影",
+  "Now": "即将上映",
+  "Popular": "最受欢迎的",
+  "Back": "后退",
+  "People_watching": "看人",
+  "Some_thing_wrong": "有事吗",
+  "Reload_Data": "重新加载数据",
+  "There_may_be_a_problem_with_the_network": "网络可能有问题"
 
 }

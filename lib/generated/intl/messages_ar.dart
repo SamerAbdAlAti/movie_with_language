@@ -22,15 +22,27 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "Back": MessageLookupByLibrary.simpleMessage("رجوع"),
         "Get_Stared": MessageLookupByLibrary.simpleMessage("أبدأ"),
         "Get_the_firstMovie": MessageLookupByLibrary.simpleMessage(
             "كن أول من يحصل على\nمعلومات الفيلم والتلفزيون"),
         "Know_the_movie": MessageLookupByLibrary.simpleMessage(
             "تعرف على الفيلم\nالذي يستحق المشاهدة"),
         "MAO_TRAILER": MessageLookupByLibrary.simpleMessage("MAO TRAILER"),
+        "MOVIES": MessageLookupByLibrary.simpleMessage("أفلام"),
         "Next": MessageLookupByLibrary.simpleMessage("التالي"),
+        "Now": MessageLookupByLibrary.simpleMessage("الآن"),
+        "People_watching": MessageLookupByLibrary.simpleMessage("مشاهدات"),
+        "Popular": MessageLookupByLibrary.simpleMessage("المفضلة"),
         "Real_time_updates": MessageLookupByLibrary.simpleMessage(
             "أحصل على التحديثات أول بأول\nو كن أول المشاهدين"),
+        "Reload_Data":
+            MessageLookupByLibrary.simpleMessage("إعادة تحميل البيانات"),
+        "Some_thing_wrong":
+            MessageLookupByLibrary.simpleMessage("هنالك شيء خاطئ"),
+        "There_may_be_a_problem_with_the_network":
+            MessageLookupByLibrary.simpleMessage(
+                "قد يكون هنالك مشكلة في الشبكة"),
         "choose_the_language":
             MessageLookupByLibrary.simpleMessage("اختر اللغة")
       };

@@ -22,15 +22,27 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "Back": MessageLookupByLibrary.simpleMessage("Back"),
         "Get_Stared": MessageLookupByLibrary.simpleMessage("Get Stared"),
         "Get_the_firstMovie": MessageLookupByLibrary.simpleMessage(
             "Get the first \nMovie &TV information"),
         "Know_the_movie": MessageLookupByLibrary.simpleMessage(
             "Know the movie \nis not worth Watching"),
         "MAO_TRAILER": MessageLookupByLibrary.simpleMessage("MAO TRAILER"),
+        "MOVIES": MessageLookupByLibrary.simpleMessage("MOVIES"),
         "Next": MessageLookupByLibrary.simpleMessage("Next"),
+        "Now": MessageLookupByLibrary.simpleMessage("Now"),
+        "People_watching":
+            MessageLookupByLibrary.simpleMessage("People watching"),
+        "Popular": MessageLookupByLibrary.simpleMessage("Popular"),
         "Real_time_updates": MessageLookupByLibrary.simpleMessage(
             "Real-time \nupdates movie Trailer"),
+        "Reload_Data": MessageLookupByLibrary.simpleMessage("Reload data"),
+        "Some_thing_wrong":
+            MessageLookupByLibrary.simpleMessage("Some thing wrong"),
+        "There_may_be_a_problem_with_the_network":
+            MessageLookupByLibrary.simpleMessage(
+                "There may be a problem with the network"),
         "choose_the_language":
             MessageLookupByLibrary.simpleMessage("choose the language")
       };

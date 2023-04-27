@@ -5,6 +5,14 @@
   "Get_the_firstMovie": "كن أول من يحصل على\nمعلومات الفيلم والتلفزيون",
   "Know_the_movie": "تعرف على الفيلم\nالذي يستحق المشاهدة",
   "Real_time_updates": "أحصل على التحديثات أول بأول\nو كن أول المشاهدين",
-  "choose_the_language": "اختر اللغة"
+  "choose_the_language": "اختر اللغة",
+  "MOVIES": "أفلام",
+  "Now": "الآن",
+  "Popular": "المفضلة",
+  "Back": "رجوع",
+  "People_watching": "مشاهدات",
+  "Some_thing_wrong": "هنالك شيء خاطئ",
+  "Reload_Data": "إعادة تحميل البيانات",
+  "There_may_be_a_problem_with_the_network": "قد يكون هنالك مشكلة في الشبكة"
 
 }

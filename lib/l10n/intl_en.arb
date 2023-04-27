@@ -5,6 +5,14 @@
   "Get_the_firstMovie": "Get the first \nMovie &TV information",
   "Know_the_movie": "Know the movie \nis not worth Watching",
   "Real_time_updates": "Real-time \nupdates movie Trailer",
-  "choose_the_language": "choose the language"
+  "choose_the_language": "choose the language",
+  "MOVIES": "MOVIES",
+  "Now": "Now",
+  "Popular": "Popular",
+  "Back": "Back",
+  "People_watching": "People watching",
+  "Some_thing_wrong": "Some thing wrong",
+  "Reload_Data": "Reload data",
+  "There_may_be_a_problem_with_the_network": "There may be a problem with the network"
 }
 

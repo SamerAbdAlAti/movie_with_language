@@ -22,14 +22,23 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "Back": MessageLookupByLibrary.simpleMessage("后退"),
         "Get_Stared": MessageLookupByLibrary.simpleMessage("盯着看"),
         "Get_the_firstMovie":
             MessageLookupByLibrary.simpleMessage("获取一首 \n电影&电视信息"),
         "Know_the_movie":
             MessageLookupByLibrary.simpleMessage("快速了解\n电影是否值得一看"),
         "MAO_TRAILER": MessageLookupByLibrary.simpleMessage("猫放时光"),
+        "MOVIES": MessageLookupByLibrary.simpleMessage("电影"),
         "Next": MessageLookupByLibrary.simpleMessage("下一步"),
+        "Now": MessageLookupByLibrary.simpleMessage("即将上映"),
+        "People_watching": MessageLookupByLibrary.simpleMessage("看人"),
+        "Popular": MessageLookupByLibrary.simpleMessage("最受欢迎的"),
         "Real_time_updates": MessageLookupByLibrary.simpleMessage("阿拉伯语"),
+        "Reload_Data": MessageLookupByLibrary.simpleMessage("重新加载数据"),
+        "Some_thing_wrong": MessageLookupByLibrary.simpleMessage("有事吗"),
+        "There_may_be_a_problem_with_the_network":
+            MessageLookupByLibrary.simpleMessage("网络可能有问题"),
         "choose_the_language": MessageLookupByLibrary.simpleMessage("选择语言")
       };
 }

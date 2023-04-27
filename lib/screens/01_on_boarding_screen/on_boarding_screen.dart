@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:movie_with_language/utils/helpers.dart';
 
 import '../../generated/assets.dart';
 import '../../generated/l10n.dart';
 import '../../utils/app_color.dart';
 import '../../utils/app_style.dart';
 import '../../widgets/00_on_boarding_content.dart';
+import '../00_core/lunch_screen.dart';
 import 'choose_language.dart';
 
 class OnBoardingScreen extends StatefulWidget {
@@ -16,7 +18,7 @@ class OnBoardingScreen extends StatefulWidget {
   State<OnBoardingScreen> createState() => _OnBoardingScreenState();
 }
 
-class _OnBoardingScreenState extends State<OnBoardingScreen> {
+class _OnBoardingScreenState extends State<OnBoardingScreen> with Helpers {
   late PageController pageController;
 
   @override
@@ -125,7 +127,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
     required int pageIndex,
   }) {
     return Padding(
-      padding: EdgeInsets.only(top: 585.h),
+      padding: EdgeInsets.only(top: 530.h),
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -157,10 +159,10 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(27.0.sh),
                 gradient: onBoardingText.length - 1 == pageIndex
-                    ? const LinearGradient(
-                        begin: Alignment(-0.6, -1.0),
-                        end: Alignment(0.507, 0.74),
-                        colors: [Color(0xfff99f00), Color(0xffdb3069)],
+                    ? LinearGradient(
+                        begin: Alignment(-0.6.h, -1.0.w),
+                        end: Alignment(0.507.h, 0.74.w),
+                        colors: const [Color(0xfff99f00), Color(0xffdb3069)],
                         stops: [0.0, 1.0],
                       )
                     : null,
@@ -177,9 +179,14 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                         curve: Curves.linear);
                   } else {
                     /// TODO: Navigate To Home page
+
+                    screenBehavior(show: true).then((value) {
+                      Navigator.pushReplacementNamed(context, "/movie_screen");
+                    });
+
                   }
                 },
-                animationDuration: const Duration(milliseconds: 1),
+                animationDuration: const Duration(microseconds: 1),
                 padding: EdgeInsets.zero,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,

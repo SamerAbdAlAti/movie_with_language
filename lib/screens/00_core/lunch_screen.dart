@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:movie_with_language/utils/app_color.dart';
 import 'package:movie_with_language/utils/app_style.dart';
+import 'package:movie_with_language/utils/helpers.dart';
 
 import '../../generated/assets.dart';
 import '../../generated/l10n.dart';
@@ -15,12 +16,12 @@ class LunchScreen extends StatefulWidget {
   State<LunchScreen> createState() => _LunchScreenState();
 }
 
-class _LunchScreenState extends State<LunchScreen> {
+class _LunchScreenState extends State<LunchScreen> with Helpers {
   @override
   void initState() {
     screenBehavior();
     Future.delayed(const Duration(seconds: 1), () {
-      Navigator.pushNamed(context, "/on_boarding_screen");
+      Navigator.pushReplacementNamed(context, "/on_boarding_screen");
     });
     super.initState();
   }
@@ -48,8 +49,10 @@ class _LunchScreenState extends State<LunchScreen> {
                   Assets.victorLogo,
                   height: 135.h,
                 ),
-                Text(S.of(context).MAO_TRAILER,
-                style: AppStyle.h1Text.copyWith(color: AppColor.backgroundColor),
+                Text(
+                  S.of(context).MAO_TRAILER,
+                  style:
+                      AppStyle.h1Text.copyWith(color: AppColor.backgroundColor),
                 )
               ],
             ),
@@ -57,9 +60,5 @@ class _LunchScreenState extends State<LunchScreen> {
         ],
       ),
     );
-  }
-
-  Future<void> screenBehavior() async {
-    await SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   }
 }

@@ -15,14 +15,17 @@ class Assets {
   static const String victorLogo = 'assets/images/victor/logo.svg';
   static const String victorLunchScreenBackground = 'assets/images/victor/lunch_screen_background.svg';
   static const String victorMOVIESDef = 'assets/images/victor/MOVIES-def.svg';
+  static const String victorMask = 'assets/images/victor/Mask.svg';
   static const String victorOffSwitch = 'assets/images/victor/Off_Switch.svg';
   static const String victorOnSwitch = 'assets/images/victor/On_Switch.svg';
   static const String victorPROFILEDef = 'assets/images/victor/PROFILE-def.svg';
   static const String victorPROFILEHov = 'assets/images/victor/PROFILE-hov.svg';
+  static const String victorPlayIcon = 'assets/images/victor/play_icon.svg';
   static const String victorSearchIcon = 'assets/images/victor/search_icon.svg';
   static const String victorSettingIcon = 'assets/images/victor/Setting_icon.svg';
   static const String victorSettingIconWhite = 'assets/images/victor/Setting_icon_white.svg';
   static const String victorSmallNavBar = 'assets/images/victor/smallNavBar.svg';
+  static const String victorStar = 'assets/images/victor/Star.svg';
   static const String victorTVSHOWHov = 'assets/images/victor/TV_SHOW_hov.svg';
 
 }

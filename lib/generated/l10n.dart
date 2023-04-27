@@ -119,6 +119,86 @@ class S {
       args: [],
     );
   }
+
+  /// `MOVIES`
+  String get MOVIES {
+    return Intl.message(
+      'MOVIES',
+      name: 'MOVIES',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Now`
+  String get Now {
+    return Intl.message(
+      'Now',
+      name: 'Now',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Popular`
+  String get Popular {
+    return Intl.message(
+      'Popular',
+      name: 'Popular',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Back`
+  String get Back {
+    return Intl.message(
+      'Back',
+      name: 'Back',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `People watching`
+  String get People_watching {
+    return Intl.message(
+      'People watching',
+      name: 'People_watching',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Some thing wrong`
+  String get Some_thing_wrong {
+    return Intl.message(
+      'Some thing wrong',
+      name: 'Some_thing_wrong',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Reload data`
+  String get Reload_Data {
+    return Intl.message(
+      'Reload data',
+      name: 'Reload_Data',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `There may be a problem with the network`
+  String get There_may_be_a_problem_with_the_network {
+    return Intl.message(
+      'There may be a problem with the network',
+      name: 'There_may_be_a_problem_with_the_network',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
